@@ -1,1 +1,1 @@
-##### react typescipt
+##### react-typescipt-sass
