@@ -1,0 +1,14 @@
+//base css
+@import "base/variables", "base/base";
+
+//configuration
+@import "abstracts/mixins";
+
+//layout css
+@import "./layouts/header";
+
+//components styles
+@import "./components/button";
+
+//page styles
+@import "./pages/home";
