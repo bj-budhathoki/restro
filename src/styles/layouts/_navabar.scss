@@ -1,0 +1,23 @@
+/* = = = = == = = = = = = = = = = = = =
+ = == = = = = = =  navbar css = == = =
+*/
+.navbar {
+  background: $brand-color;
+  color: $pramary-color;
+  &__links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -0.09rem;
+    padding: 1rem 0rem;
+    & > li > a {
+      color: $pramary-color;
+      text-decoration: none;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
+  @media (min-width: 600px) {
+  }
+}

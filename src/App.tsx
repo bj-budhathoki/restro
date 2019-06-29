@@ -1,10 +1,12 @@
 import React from "react";
-
+import Header from "./layouts/Header/Header";
+import Navbar from "./layouts/Navbar/Navbar";
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <h1>hello</h1>
-    </div>
+    <main>
+      <Header />
+      <Navbar />
+    </main>
   );
 };
 
